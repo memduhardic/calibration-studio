@@ -1,18 +1,18 @@
 # Calibration Studio
 
-A desktop tool (Python / PySide6) for evaluating and comparing hydrological model outputs against observed streamflow. Load one CSV with observed and simulated series, define calibration and validation periods, and get publication-ready hydrographs together with a full goodness-of-fit table.
+A desktop tool (Python / PySide6) for evaluating and comparing hydrological model outputs against observed streamflow. Load one CSV with observed and simulated series, define calibration and validation periods, and get better hydrographs together with a result table.
 
 ![Calibration Studio](docs/screenshot.png)
 
 ## Features
 
-- **Multi-model comparison** — any number of model outputs (e.g. SWAT, HEC-HMS, GR4J, HBV, LSTM) evaluated against one observed series
+- **Multi-model comparison** - any number of model outputs (e.g. SWAT, HEC-HMS, GR4J, HBV, LSTM) evaluated against one observed series
 - **Goodness-of-fit metrics** computed separately for the calibration and validation periods: NSE, KGE, RMSE, MAE, PBIAS, Pearson r, R² and Rv (volume ratio). Rows with missing values are excluded pair-wise, and the sample size (n) is reported
 - **Hydrograph** with shaded calibration / validation periods and precipitation drawn as hanging columns on an inverted secondary axis (daily, weekly or monthly totals)
 - **Automatic column detection** for the time, observed and precipitation columns (English and Turkish keywords)
-- **Full styling control** — per-series colour, line style, legend name, visibility and drawing order; axis limits, log scale and legend layout
-- **Export** — metrics table as CSV, and one high-resolution PNG hydrograph per model with the same styling as the on-screen chart
-- **Settings memory** — all styling is auto-saved between sessions and can also be saved to / loaded from named settings files, so figures stay consistent across reports
+- **Full styling control** - per-series colour, line style, legend name, visibility and drawing order; axis limits, log scale and legend layout
+- **Export** - metrics table as CSV, and one high-resolution PNG hydrograph per model with the same styling as the on-screen chart
+- **Settings memory** - all styling is auto-saved between sessions and can also be saved to / loaded from named settings files, so figures stay consistent across reports
 
 ## Installation
 
@@ -73,4 +73,4 @@ Rv is identical to the β term of KGE and satisfies Rv = 1 − PBIAS/100.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
