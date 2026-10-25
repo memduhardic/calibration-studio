@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Exported results
+*_scores.csv
+calibration_scores.csv
+exports/
+
+# Personal settings files (example settings can live in examples/)
+*.json
+!examples/*.json
+!.vscode/launch.json
+
+# Editor / OS
+.vscode/*
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db

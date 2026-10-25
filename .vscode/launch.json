@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Calibration Studio",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/calibration_studio.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
